@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.1nce.com/management-api/v1/sims
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - api.1nce.com
+      Authorization:
+      - Bearer eyJpZHRva2VuIjoiZXlKcmFXUWlPaUpVWlVkeWVqbExkbEJRWTNKYVdURXljRXBWUXpod2NYVjRVbnAxSzAxRU1HdENlRzh6Ukc1bFlXTkJQU0lzSW1Gc1p5STZJbEpUTWpVMkluMC5leUp6ZFdJaU9pSXdNR0kxTmpFeU5TMDBaVEE0TFRSaVlqQXRPV1ppTmkxa05qZzRZVGd3TkRCaVkyTWlMQ0pqYjJkdWFYUnZPbWR5YjNWd2N5STZXeUpCY0draVhTd2lhWE56SWpvaWFIUjBjSE02WEM5Y0wyTnZaMjVwZEc4dGFXUndMbVYxTFdObGJuUnlZV3d0TVM1aGJXRjZiMjVoZDNNdVkyOXRYQzlsZFMxalpXNTBjbUZzTFRGZlluTXdhbkJPTTFobElpd2lZMjluYm1sMGJ6cDFjMlZ5Ym1GdFpTSTZJalV5TnpNeU56RTFPRFFpTENKd2NtVm1aWEp5WldSZmRYTmxjbTVoYldVaU9pSTRNVEF4TWpJMU1WOXdiMngwY21GNElpd2liM0pwWjJsdVgycDBhU0k2SWpJME1HWmxNVFEzTFdNd1l6Z3ROR1V5TlMxaFptSTBMVGswTW1Nd1ltWXlNakkyTnlJc0ltRjFaQ0k2SWpjNGRqSnJjMjFoY1hGMU5qaHlhbVJ0YlRKcE1tNDRhMlJ1SWl3aVkzVnpkRzl0T21OMWMzUnZiV1Z5U1dRaU9pSTBOamszTWpnek5EWTJJaXdpWlhabGJuUmZhV1FpT2lJMFkyRTRZMlEwTXkwek16WmpMVFExTkdRdE9EZ3dNeTFoTWpjNE1EQTNOMkU1WW1VaUxDSjBiMnRsYmw5MWMyVWlPaUpwWkNJc0ltRjFkR2hmZEdsdFpTSTZNVFl6TmpreU1qVTRNU3dpWlhod0lqb3hOak0yT1RJMk1UZ3hMQ0pwWVhRaU9qRTJNelk1TWpJMU9ERXNJbXAwYVNJNkltWTVNRGd5WW1JNExXSmxaVFl0TkRZMk5DMWhaR0ptTFRJeVlXRm1PRGhoT1RWa05pSjkuSWcyMlB3b2QtQkRyY01NOXlpSk93ZHVhQ21LUGZxRDdiUlVib3BTOUhoUVVjQjYxZk9NMEllSFFydUlDdWNMVTlIVE9DYUdnMThTTC1SaVkzVUlFbWNPb3Q0TWs4UExPODBHODZadnBNN0dBamVmZTB4MU1PTmJOeEREVk5sa1FReUQtd0ZQc1RLYUFYczJKbXA0Q0VPTmFwdUYtd3JsVkw1YXpneWg3QXBJVFFGMkw2WmNxXzczNXJpWmo0NWxNVFZBcnFDdTMwQjE2ZWo0b3ZLV2tjQUhWb2hEUHNYcXVWRXdxY0hTT05Wa19JVENSZlNxYUZuTHZRRGpBYVJZNno2X1paV0hXb3ZKRnRkUTN5S3BWWlNwZkZLSHd5aHhDTEY5SS13cDNUTGJWdGpqOERrbG5WRFNrbUdPMkNoOXR2Y3NHR1JDbS1rUWdXVEppOXZoMy13IiwiYWNjZXNzdG9rZW4iOiJleUpyYVdRaU9pSlRkRmxWUlhsd1ZqVmhNR3hHZGs1Wk1Gd3ZiRnBRWVZGNFMzcE9Zak5vUXpkY0wwOWtVRUp5T0VwTmNtTTlJaXdpWVd4bklqb2lVbE15TlRZaWZRLmV5SnpkV0lpT2lJd01HSTFOakV5TlMwMFpUQTRMVFJpWWpBdE9XWmlOaTFrTmpnNFlUZ3dOREJpWTJNaUxDSmpiMmR1YVhSdk9tZHliM1Z3Y3lJNld5SkJjR2tpWFN3aWFYTnpJam9pYUhSMGNITTZYQzljTDJOdloyNXBkRzh0YVdSd0xtVjFMV05sYm5SeVlXd3RNUzVoYldGNmIyNWhkM011WTI5dFhDOWxkUzFqWlc1MGNtRnNMVEZmWW5Nd2FuQk9NMWhsSWl3aVkyeHBaVzUwWDJsa0lqb2lOemgyTW10emJXRnhjWFUyT0hKcVpHMXRNbWt5YmpoclpHNGlMQ0p2Y21sbmFXNWZhblJwSWpvaU1qUXdabVV4TkRjdFl6QmpPQzAwWlRJMUxXRm1ZalF0T1RReVl6Qmlaakl5TWpZM0lpd2laWFpsYm5SZmFXUWlPaUkwWTJFNFkyUTBNeTB6TXpaakxUUTFOR1F0T0Rnd015MWhNamM0TURBM04yRTVZbVVpTENKMGIydGxibDkxYzJVaU9pSmhZMk5sYzNNaUxDSnpZMjl3WlNJNkltRjNjeTVqYjJkdWFYUnZMbk5wWjI1cGJpNTFjMlZ5TG1Ga2JXbHVJaXdpWVhWMGFGOTBhVzFsSWpveE5qTTJPVEl5TlRneExDSmxlSEFpT2pFMk16WTVNall4T0RFc0ltbGhkQ0k2TVRZek5qa3lNalU0TVN3aWFuUnBJam9pWmpoallqTTBOR0l0TnpSaE5DMDBPR1EwTFRnd01URXRNVE5rTm1KbE1qVXpZMlpsSWl3aWRYTmxjbTVoYldVaU9pSTFNamN6TWpjeE5UZzBJbjAuYm1uWEJ4ekc4dExRU3J2czVvOS1MaFN5aTBCVjRCTTZTaUxaNUJyQjVrOVpiOHQyZnJaaXFxQlN4b1lZQ3JCN1paTXZEMFZWWXZnT0VqQWMzTXRVYXFKUDZLT0o1WjZzc3VGYXpCbVQ2d3RzNER0UFNrTGlBSEpGYmFSYzROb0k0d1NCbDVjOE82SEZSVGQ4cVcwS1NaQlFKeFU5QWFHVnpRX1dfWVlWU1p2SF94RmtIVUdjQVpfNmJtS0dHczJRc1FMMVF3N3VDejlNZ3FORUNMTXZEbFlVVjNxUDExeHViWVN2bmpLbEpwS1o1aENwbnByazU3SHFNTnc4Ylo0Nm10RDVpTjRWaE1adDdUWTdZTGJtSTRnOGdpNW5ZWnRWVjQ1NGJMUjlhNExKelRGeDc5UTFKZXRWYTVwcU5xazloZC1CeEtTUUJTc0plb3VGbFA3V0pnIn0=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '463'
+      Connection:
+      - keep-alive
+      Date:
+      - Sun, 14 Nov 2021 20:44:07 GMT
+      X-Amzn-Requestid:
+      - 31f535de-3d3c-4eb7-9dfb-4d51f124357c
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Total-Pages:
+      - '1'
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - DENY
+      X-Amzn-Remapped-Content-Length:
+      - '3980'
+      X-Amzn-Remapped-Connection:
+      - close
+      Set-Cookie:
+      - "!Proxy!ApiProxyServletJSESSIONID=ljdy8_Dd6yW_1GnlCPVby4154jBQ8wGQT-GD_4Me.ioprod-jboss1-jboss1;
+        Path=/global-api"
+      - SERVERID=csc2; path=/; Secure
+      X-Total-Count:
+      - '10'
+      X-Amz-Apigw-Id:
+      - Iz87qFVeFiAFqAw=
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      X-Count-Per-Page:
+      - '10'
+      X-Content-Type-Options:
+      - nosniff
+      Expires:
+      - '0'
+      X-Current-Page:
+      - '1'
+      X-Amzn-Trace-Id:
+      - Root=1-61917517-1f2585b268cc231b3f859e85
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Sun, 14 Nov 2021 20:44:07 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4cb16ea6a84fa64395352e03f53b5e8f.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - WAW50-C1
+      X-Amz-Cf-Id:
+      - C4uCPJunwy8ECG6wpq-SLX-UOlg4v1v-M5FqNz4XON_iX28hCYjnQw==
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"iccid":"8988228066602306770","imsi":"901405102306770","msisdn":"882285102306770","imei":"8682390510114404","imei_lock":false,"status":"Enabled","activation_date":"2021-08-26T12:13:06.000+0000","ip_address":"10.210.176.1","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"},"label":"Test API"},{"iccid":"8988228066602307120","imsi":"901405102307120","msisdn":"882285102307120","imei":"8682390510024604","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.2","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}},{"iccid":"8988228066602307121","imsi":"901405102307121","msisdn":"882285102307121","imei":"8682390510093004","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.187","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}},{"iccid":"8988228066602554848","imsi":"901405102554848","msisdn":"882285102554848","imei":"8682390510113504","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.3","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}},{"iccid":"8988228066602554850","imsi":"901405102554850","msisdn":"882285102554850","imei":"8682390510023704","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.4","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}},{"iccid":"8988228066602554847","imsi":"901405102554847","msisdn":"882285102554847","imei":"8682390510016704","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.223","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}},{"iccid":"8988228066602307122","imsi":"901405102307122","msisdn":"882285102307122","imei":"8682390510035004","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.133","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}},{"iccid":"8988228066602554851","imsi":"901405102554851","msisdn":"882285102554851","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.231","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}},{"iccid":"8988228066602554849","imsi":"901405102554849","msisdn":"882285102554849","imei":"8682390510125904","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.196","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}},{"iccid":"8988228066602307123","imsi":"901405102307123","msisdn":"882285102307123","imei_lock":false,"status":"Enabled","activation_date":"2021-09-23T10:31:46.000+0000","ip_address":"10.210.176.104","current_quota":500,"quota_status":{"id":0,"description":"More
+        than 20% available"},"current_quota_SMS":250,"quota_status_SMS":{"id":0,"description":"More
+        than 20% available"}}]'
+  recorded_at: Sun, 14 Nov 2021 20:44:07 GMT
+recorded_with: VCR 6.0.0
