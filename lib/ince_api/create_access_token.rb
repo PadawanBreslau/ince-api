@@ -1,7 +1,3 @@
-require 'uri'
-require 'net/http'
-require 'openssl'
-require 'base64'
 require 'json'
 
 module InceApi
