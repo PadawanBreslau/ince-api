@@ -17,5 +17,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'openssl', '~> 2.2'
   s.add_dependency 'base64', '~> 0.1'
   s.add_development_dependency 'pry', '~> 0.13'
+  s.add_development_dependency 'rspec', '~> 3.9'
+  s.add_development_dependency 'webmock', '~> 3.14'
+  s.add_development_dependency 'vcr', '~> 6.0'
 end
 
