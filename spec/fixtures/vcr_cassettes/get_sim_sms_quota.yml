@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.1nce.com/management-api/v1/sims/8988228066602306770/quota/sms
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - api.1nce.com
+      Authorization:
+      - Bearer eyJpZHRva2VuIjoiZXlKcmFXUWlPaUpVWlVkeWVqbExkbEJRWTNKYVdURXljRXBWUXpod2NYVjRVbnAxSzAxRU1HdENlRzh6Ukc1bFlXTkJQU0lzSW1Gc1p5STZJbEpUTWpVMkluMC5leUp6ZFdJaU9pSXdNR0kxTmpFeU5TMDBaVEE0TFRSaVlqQXRPV1ppTmkxa05qZzRZVGd3TkRCaVkyTWlMQ0pqYjJkdWFYUnZPbWR5YjNWd2N5STZXeUpCY0draVhTd2lhWE56SWpvaWFIUjBjSE02WEM5Y0wyTnZaMjVwZEc4dGFXUndMbVYxTFdObGJuUnlZV3d0TVM1aGJXRjZiMjVoZDNNdVkyOXRYQzlsZFMxalpXNTBjbUZzTFRGZlluTXdhbkJPTTFobElpd2lZMjluYm1sMGJ6cDFjMlZ5Ym1GdFpTSTZJalV5TnpNeU56RTFPRFFpTENKd2NtVm1aWEp5WldSZmRYTmxjbTVoYldVaU9pSTRNVEF4TWpJMU1WOXdiMngwY21GNElpd2liM0pwWjJsdVgycDBhU0k2SWpjeE5EZ3pPR1prTFRBd1lXSXROR0UxTWkxaFkySTRMV1JtTjJWbE9UVTJObU0zTmlJc0ltRjFaQ0k2SWpjNGRqSnJjMjFoY1hGMU5qaHlhbVJ0YlRKcE1tNDRhMlJ1SWl3aVkzVnpkRzl0T21OMWMzUnZiV1Z5U1dRaU9pSTBOamszTWpnek5EWTJJaXdpWlhabGJuUmZhV1FpT2lJM1lqWTFNakZpTWkwMk9HUXhMVFJsTkRZdFltRmxZaTFtTmpaaE1tUXhNMkZqT0RFaUxDSjBiMnRsYmw5MWMyVWlPaUpwWkNJc0ltRjFkR2hmZEdsdFpTSTZNVFl6TmpreU5qVTROeXdpWlhod0lqb3hOak0yT1RNd01UZzNMQ0pwWVhRaU9qRTJNelk1TWpZMU9EY3NJbXAwYVNJNklqZzVPVFExTmpObExUWTFNRGd0TkRObU5DMWhNR1EyTFdJelpqQmhNbUZsT1RRNE1TSjkuYlVQWEdxa1hxQklhdTNHenV4V1U4WldaeXhGbURuVVZ4b3NKZHlZUWdZRlVyZGxoZ29yMTdMSVk2TnRkZFA3UTc2aG1URFhUOXEtLXB1X1JLd0p5eUZHdl9XakV6Y1dfWk9kczQ3Nko1bmhHa2pMSzRGcUlqY0p3ckJvRDU2RjZMaU1aaVZTM0xGNFUyVjA3QXVMcTA0SHRQLTBVTXA5aWQ5aS10eGptRktGSDZWV1NGN1NTQmxGT0xBS2ViNUg5Nm1XU1BpZmxMYUY4ZWhyUWJEUTVBYUZ2ZlRyTnRDaldsMWpoeXJUVWU3aHhNZHhPZmdCZjdKMG5PWHN3THNUQVUydHJwNGJzWlZFZFlZdmZtbXBMeGVNN01wbXhoM0lDcE5Ha2MwRTB5bjdiSG9YWDlHc1IwdkVsbktKMXpYalNQaGpmdHRYM2lQVGUyWmtkNUZoN05BIiwiYWNjZXNzdG9rZW4iOiJleUpyYVdRaU9pSlRkRmxWUlhsd1ZqVmhNR3hHZGs1Wk1Gd3ZiRnBRWVZGNFMzcE9Zak5vUXpkY0wwOWtVRUp5T0VwTmNtTTlJaXdpWVd4bklqb2lVbE15TlRZaWZRLmV5SnpkV0lpT2lJd01HSTFOakV5TlMwMFpUQTRMVFJpWWpBdE9XWmlOaTFrTmpnNFlUZ3dOREJpWTJNaUxDSmpiMmR1YVhSdk9tZHliM1Z3Y3lJNld5SkJjR2tpWFN3aWFYTnpJam9pYUhSMGNITTZYQzljTDJOdloyNXBkRzh0YVdSd0xtVjFMV05sYm5SeVlXd3RNUzVoYldGNmIyNWhkM011WTI5dFhDOWxkUzFqWlc1MGNtRnNMVEZmWW5Nd2FuQk9NMWhsSWl3aVkyeHBaVzUwWDJsa0lqb2lOemgyTW10emJXRnhjWFUyT0hKcVpHMXRNbWt5YmpoclpHNGlMQ0p2Y21sbmFXNWZhblJwSWpvaU56RTBPRE00Wm1RdE1EQmhZaTAwWVRVeUxXRmpZamd0WkdZM1pXVTVOVFkyWXpjMklpd2laWFpsYm5SZmFXUWlPaUkzWWpZMU1qRmlNaTAyT0dReExUUmxORFl0WW1GbFlpMW1OalpoTW1ReE0yRmpPREVpTENKMGIydGxibDkxYzJVaU9pSmhZMk5sYzNNaUxDSnpZMjl3WlNJNkltRjNjeTVqYjJkdWFYUnZMbk5wWjI1cGJpNTFjMlZ5TG1Ga2JXbHVJaXdpWVhWMGFGOTBhVzFsSWpveE5qTTJPVEkyTlRnM0xDSmxlSEFpT2pFMk16WTVNekF4T0Rjc0ltbGhkQ0k2TVRZek5qa3lOalU0Tnl3aWFuUnBJam9pWTJJMlltSmlNV1F0TmpBMFlpMDBaakZrTFRrNVltSXROREk0WVdKaU1UUXpOMlF4SWl3aWRYTmxjbTVoYldVaU9pSTFNamN6TWpjeE5UZzBJbjAuVmxLekZKNFJYbmMyTEt1ZmFFLTc3TzNOaFdTYUs1Y3ZyZlAxYmw0em04Vnk2VENSNEVMTGk2Q1lPeUFBU3VaVmp1YUxrNVhreWhoVHZfakRPVXhIeWgxWW1NckoxRmJlOE1TeVI5VmdOSXY2SmRRYnFtM21LRi1IZG9IWGtnX3lQaG13d3Nfanlac2lVeklQR3NoVUYzTEplSjNIbnI0SVcxSTR2Ykh3SmtXVWRvWGplUDdNcTFpdmhyVUVxeTF1aHJ4X3g0WHlTeDJoRkxMYXJSaEFjbzVQQl9SWTdlSDQtQXkzZUlPYmp1dW5RUHNFVVZSNVBSaTBDRWdtekVTSkhMX2dibDNLc1lLV2VDUkIzbURPVmFoU3llNGRYcmY4YUJQYjQwY0ZLOHkxYnBqa0c4MWhlYVl5MGJ3b2VEeU0wbjQ1VHNGM2tMUzRRVFRZY1Q4QzBRIn0=
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Date:
+      - Sun, 14 Nov 2021 21:58:03 GMT
+      X-Amzn-Requestid:
+      - 687f49c7-a447-4cc7-a762-50686035e303
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - DENY
+      X-Amzn-Remapped-Content-Length:
+      - '167'
+      X-Amzn-Remapped-Connection:
+      - close
+      Set-Cookie:
+      - "!Proxy!ApiProxyServletJSESSIONID=I-dALxPbbSlFHIBVvPtFUswSqOocWPKbwdAPMYDX.ioprod-jboss2-jboss1;
+        Path=/global-api"
+      - SERVERID=csc2; path=/; Secure
+      X-Amz-Apigw-Id:
+      - I0HwzGpqliAFbsg=
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      X-Content-Type-Options:
+      - nosniff
+      Expires:
+      - '0'
+      X-Amzn-Trace-Id:
+      - Root=1-6191866b-36b42a9f78c57beb6c8922d2
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Sun, 14 Nov 2021 21:58:03 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 bcfde77e1326fd9531586693834730c1.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - WAW50-C1
+      X-Amz-Cf-Id:
+      - TzGy8YKKFcA4XY-vOsBjaZ_AegQqodvGmv5qxrJXEEqiv9kk5_XhXQ==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"volume":240,"total_volume":250,"expiry_date":"2031-11-26 00:00:00","last_volume_added":250,"last_status_change_date":"2021-08-26
+        12:13:26","threshold_percentage":20}'
+  recorded_at: Sun, 14 Nov 2021 21:58:03 GMT
+recorded_with: VCR 6.0.0
