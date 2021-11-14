@@ -7,7 +7,11 @@ module InceApi
 
     def sim
       response = connection.request(request)
-      JSON.parse(response.body)
+      if response.body != ''
+        JSON.parse(response.body)
+      else
+        {'status_code' => 404, 'error_message' => 'SIM with ICCID not found'}
+      end
     end
 
     private
