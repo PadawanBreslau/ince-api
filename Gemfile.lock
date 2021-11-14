@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ince-api (0.0.3)
+    ince-api (0.0.4)
       base64 (~> 0.1)
       net-http (~> 0.2)
       openssl (~> 2.2)
