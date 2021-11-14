@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.1nce.com/management-api/v1/sims/8988228066602306711
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - api.1nce.com
+      Authorization:
+      - Bearer INVALID TOKEN
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '182'
+      Connection:
+      - keep-alive
+      Date:
+      - Sun, 14 Nov 2021 19:12:43 GMT
+      X-Amzn-Requestid:
+      - 2cab9faf-f4a3-427d-82fb-66085605d6ea
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - DENY
+      X-Amzn-Remapped-Content-Length:
+      - '200'
+      X-Amzn-Remapped-Connection:
+      - close
+      Set-Cookie:
+      - SERVERID=csc1; path=/; Secure
+      X-Amz-Apigw-Id:
+      - IzviyFYgFiAFScQ=
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      X-Content-Type-Options:
+      - nosniff
+      Expires:
+      - '0'
+      X-Amzn-Trace-Id:
+      - Root=1-61915fab-6c30898475a8c67c540582ec
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Sun, 14 Nov 2021 19:12:43 GMT
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 58bdfbab355a53b4cbc6b93312bb8749.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - WAW50-C1
+      X-Amz-Cf-Id:
+      - aSClksdCPx4N2ndF7tVJa7Eb9ar1psippy3cilJNMUhAEEWhYVGl2g==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"timestamp":"2021-11-14T19:12:43.315+0000","status":401,"error":"Unauthorized","message":"The
+        token is invalid: Illegal base64 character 20","path":"/internal-global-api/v1/sims/8988228066602306711"}'
+  recorded_at: Sun, 14 Nov 2021 19:12:43 GMT
+recorded_with: VCR 6.0.0

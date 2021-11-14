@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.1nce.com/management-api/v1/sims/8988228066602306770
+    uri: https://api.1nce.com/management-api/v1/sims/8988228066602306711
     body:
       encoding: US-ASCII
       string: ''
