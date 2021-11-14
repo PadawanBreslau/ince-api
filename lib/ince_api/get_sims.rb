@@ -14,7 +14,7 @@ module InceApi
 
     ALLOWED_KEYS = %i(page pageSize q sort)
     def params_query
-      URI.encode_www_form @params.slice(ALLOWED_KEYS)
+      URI.encode_www_form @params.slice(*ALLOWED_KEYS)
     end
 
     def url

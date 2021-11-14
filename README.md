@@ -52,3 +52,14 @@ You can also fetch single card
 token = InceApi::CreateAccessToken.new(username: '<<YOUR USERNAME>>', password: '<<YOUR PASSWORD>>').create_token['access_token']
 sims = InceApi::GetSim.new(access_token: token, iccid: 'XXXXXXXXX').sim
 ```
+
+## SIM configuration
+
+You can update SIM card according to documentation [DOCS](https://help.1nce.com/dev-hub/reference/general-sim#updatesimusingput)
+
+```ruby
+InceApi::CreateAccessToken.new(username: '<<YOUR USERNAME>>',
+                               password: '<<YOUR PASSWORD>>').create_token
+InceApi::SingleSimConfiguration.new(iccid: iccid, access_token: token, params: {label: 'Test API'}).update
+```
+
