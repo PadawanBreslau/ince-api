@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ince-api'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.summary     = "1nce API wrapper"
   s.description = "A simple wrapper for 1nce API"
   s.authors     = ["Stanislaw Zawadzki"]

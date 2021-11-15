@@ -63,3 +63,35 @@ InceApi::CreateAccessToken.new(username: '<<YOUR USERNAME>>',
 InceApi::SingleSimConfiguration.new(iccid: iccid, access_token: token, params: {label: 'Test API'}).update
 ```
 
+## Multiple SIM configuration
+
+```ruby
+      params = [{iccid: '8988228066602306711', label: 'Test Label 1'}, {iccid: '8988228066602307111', label: 'Test Label 2'}]
+      response = InceApi::MultipleSimsConfiguration.new(access_token: 'VALID TOKEN', changes_array: params).update_many
+
+```
+
+## Get SIM data quota
+```ruby
+InceApi::GetSimDataQuota..new(access_token: 'VALID TOKEN', iccid: '8988228066602306770').sim_status
+```
+
+## Get SIM SMS quota
+```ruby
+InceApi::GetSimSMSQuota..new(access_token: 'VALID TOKEN', iccid: '8988228066602306770').sim_status
+```
+
+## Get SIM usage
+```ruby
+InceApi::GetSimSMSUsage.new(access_token: 'VALID TOKEN', iccid: '8988228066602306770').sim_usage
+```
+
+## Get SIM status
+```ruby
+InceApi::GetSimStatus.new(access_token: 'VALID TOKEN', iccid: '8988228066602306770').sim_status
+```
+
+## Create and send SMS to device
+```ruby
+InceApi::CreateSms.new(access_token: 'VALID TOKEN', iccid: '8988228066602306770', params: {payload: 'TEST'}).send
+```
