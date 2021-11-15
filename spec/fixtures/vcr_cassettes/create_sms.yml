@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.1nce.com/management-api/v1/sims/8988228066602306770/sms
+    body:
+      encoding: UTF-8
+      string: '{"payload":"test SMS"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - api.1nce.com
+      Content-Type:
+      - application/json;charset=UTF-8
+      Authorization:
+      - Bearer eyJpZHRva2VuIjoiZXlKcmFXUWlPaUpVWlVkeWVqbExkbEJRWTNKYVdURXljRXBWUXpod2NYVjRVbnAxSzAxRU1HdENlRzh6Ukc1bFlXTkJQU0lzSW1Gc1p5STZJbEpUTWpVMkluMC5leUp6ZFdJaU9pSXdNR0kxTmpFeU5TMDBaVEE0TFRSaVlqQXRPV1ppTmkxa05qZzRZVGd3TkRCaVkyTWlMQ0pqYjJkdWFYUnZPbWR5YjNWd2N5STZXeUpCY0draVhTd2lhWE56SWpvaWFIUjBjSE02WEM5Y0wyTnZaMjVwZEc4dGFXUndMbVYxTFdObGJuUnlZV3d0TVM1aGJXRjZiMjVoZDNNdVkyOXRYQzlsZFMxalpXNTBjbUZzTFRGZlluTXdhbkJPTTFobElpd2lZMjluYm1sMGJ6cDFjMlZ5Ym1GdFpTSTZJalV5TnpNeU56RTFPRFFpTENKd2NtVm1aWEp5WldSZmRYTmxjbTVoYldVaU9pSTRNVEF4TWpJMU1WOXdiMngwY21GNElpd2liM0pwWjJsdVgycDBhU0k2SW1ZeE5UaGpPVGt5TFRVM1pETXROR0ZrWVMwNE5qUTJMVEU1TW1RMk1ERTBZMlE1T0NJc0ltRjFaQ0k2SWpjNGRqSnJjMjFoY1hGMU5qaHlhbVJ0YlRKcE1tNDRhMlJ1SWl3aVkzVnpkRzl0T21OMWMzUnZiV1Z5U1dRaU9pSTBOamszTWpnek5EWTJJaXdpWlhabGJuUmZhV1FpT2lJMFlURTRaVE5sWkMweU5UY3lMVFExWTJFdE9XVmpPUzA1T1Roa01tTXdNVGhsTkdRaUxDSjBiMnRsYmw5MWMyVWlPaUpwWkNJc0ltRjFkR2hmZEdsdFpTSTZNVFl6TmprM05UQXlNeXdpWlhod0lqb3hOak0yT1RjNE5qSXpMQ0pwWVhRaU9qRTJNelk1TnpVd01qTXNJbXAwYVNJNklqbGpaVEUxTWpabUxUQXdORFV0TkdZeFlTMDVaVGhoTFdRNU1EZzNNelEyTkdKbE1pSjkuWGRTR0FQV25ZNGdxT2lKWWhpQUtfYlZJRzRRbjlRYWNQN2V3X2N1b0U1Q1ZzR0VSckRTaVNKU0ZnT2hNSnNidzViVTZhenI4alRCYXpna0pNYnFKV0RzQnhaX2E4WE81N1QxWEdMdVhoQ0EwWElUNDZuVTBIZy1JQndkckhJS1VfbFZrMjg1TVVnTFQ1SU5MQ1F5SEExUXE2UWRTdlB3b0FPaHd1R2JsbGluY2ItQmpmRkk5T21aMTljbl8wTEh0elRBY29Nd1FVYlJzNk9wZjNkd3hrc0Q2azE2REFQSElUbFlhcENYc0oyMm1mcXRITnBsSDFfdDU1dk1kNzFvelhKOGlGMDJMbDFnTUVEUmVsQUNNSXZyeDRWbWNOczN3N1pidFpHUFQ4eWZSTU5Id2RvNmJ3Um9lYXd6dE9WLU11UHpvMkFJWDIwbXRscG1KMjFqbTJ3IiwiYWNjZXNzdG9rZW4iOiJleUpyYVdRaU9pSlRkRmxWUlhsd1ZqVmhNR3hHZGs1Wk1Gd3ZiRnBRWVZGNFMzcE9Zak5vUXpkY0wwOWtVRUp5T0VwTmNtTTlJaXdpWVd4bklqb2lVbE15TlRZaWZRLmV5SnpkV0lpT2lJd01HSTFOakV5TlMwMFpUQTRMVFJpWWpBdE9XWmlOaTFrTmpnNFlUZ3dOREJpWTJNaUxDSmpiMmR1YVhSdk9tZHliM1Z3Y3lJNld5SkJjR2tpWFN3aWFYTnpJam9pYUhSMGNITTZYQzljTDJOdloyNXBkRzh0YVdSd0xtVjFMV05sYm5SeVlXd3RNUzVoYldGNmIyNWhkM011WTI5dFhDOWxkUzFqWlc1MGNtRnNMVEZmWW5Nd2FuQk9NMWhsSWl3aVkyeHBaVzUwWDJsa0lqb2lOemgyTW10emJXRnhjWFUyT0hKcVpHMXRNbWt5YmpoclpHNGlMQ0p2Y21sbmFXNWZhblJwSWpvaVpqRTFPR001T1RJdE5UZGtNeTAwWVdSaExUZzJORFl0TVRreVpEWXdNVFJqWkRrNElpd2laWFpsYm5SZmFXUWlPaUkwWVRFNFpUTmxaQzB5TlRjeUxUUTFZMkV0T1dWak9TMDVPVGhrTW1Nd01UaGxOR1FpTENKMGIydGxibDkxYzJVaU9pSmhZMk5sYzNNaUxDSnpZMjl3WlNJNkltRjNjeTVqYjJkdWFYUnZMbk5wWjI1cGJpNTFjMlZ5TG1Ga2JXbHVJaXdpWVhWMGFGOTBhVzFsSWpveE5qTTJPVGMxTURJekxDSmxlSEFpT2pFMk16WTVOemcyTWpNc0ltbGhkQ0k2TVRZek5qazNOVEF5TXl3aWFuUnBJam9pWVdJNE1EazNNV0V0TTJRMlpDMDBObVpqTFdFeU5qZ3RaRGt6WW1SbFpHTTFOR001SWl3aWRYTmxjbTVoYldVaU9pSTFNamN6TWpjeE5UZzBJbjAuVUdmYTE0R3FtbV9DaW1QblZqOFowWm9qRElJak84aWJ3VlM2RG45NGpOc2JBMGpTTGVab21Pc0l0WW5aYjFsTENHaEh4YmliT2haMzNQdHdlU1lTNExUeVQ0UkN1SHNTeVVYdG5uZ21nWldfdHdxcFk2bjNKVjVFOUM3bC14VF9RWFJOeDF3cWV1c0ZGU0FvTnFiaXBjMTdJNmdQaW14c044YUJJSk5STVJiQWl5cDNpbEpQc1Rhb2lUaGl0XzhHNGNaV2l4dUltc1dxWDhhdnp3UTZqNVRTV3BHdDd2ZklsRTM3SFhhU0R6U1ZtTzZFbWNzQkNhLS10ZWpKZFVkT2lHejg5TmVIZExRRkJOdm1Dd1dyZ2NULWs1WGdoejhKWkQ1cjNWZXVIUDZyN0paZzAyMlZ3SzV3LXhHX2d1YUtwTEtJM3M5emdGYWx0R19leFJZQm1RIn0=
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 15 Nov 2021 11:17:36 GMT
+      X-Amzn-Requestid:
+      - e7419cc1-b597-4ab2-b6b8-ece1761f5523
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - DENY
+      X-Amzn-Remapped-Content-Length:
+      - '0'
+      X-Amzn-Remapped-Connection:
+      - close
+      Set-Cookie:
+      - "!Proxy!ApiProxyServletJSESSIONID=tV84wISz1_j0rp6UuIPJN8qjhqI3pt1xluHRxBQr.ioprod-jboss2-jboss1;
+        Path=/global-api"
+      - SERVERID=csc2; path=/; Secure
+      X-Amz-Apigw-Id:
+      - I184iHbSFiAFXIg=
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      X-Content-Type-Options:
+      - nosniff
+      Expires:
+      - '0'
+      Location:
+      - https://bss-global.api.1nce.com/internal-global-api/v1/sims/8988228066602306770/sms/7363280
+      X-Amzn-Trace-Id:
+      - Root=1-619241d0-1aefe55e5ace7e7d3f1bd551
+      Pragma:
+      - no-cache
+      X-Amzn-Remapped-Date:
+      - Mon, 15 Nov 2021 11:17:36 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 af49d962d25539f633834af35e0ac9d1.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - WAW50-C1
+      X-Amz-Cf-Id:
+      - 06oXGfINMLon0y0kwokP4za6jDJ5HJ-yf_-4YezgBG20E9RlAYDg1A==
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Mon, 15 Nov 2021 11:17:36 GMT
+recorded_with: VCR 6.0.0
