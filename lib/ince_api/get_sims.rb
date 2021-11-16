@@ -1,5 +1,7 @@
 module InceApi
   class GetSims
+    attr_reader :headers
+
     def initialize(access_token:, params: {})
       @access_token = access_token
       @params = params
@@ -7,6 +9,8 @@ module InceApi
 
     def sims
       response = connection.request(request)
+      @headers = response.each_header.to_h
+
       JSON.parse(response.body)
     end
 

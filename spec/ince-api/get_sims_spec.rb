@@ -30,6 +30,17 @@ RSpec.describe InceApi::GetSims do
     expect(@response_p1.first['iccid']).not_to eq(@response_p2.first['iccid'])
   end
 
+  it 'returns headers too' do
+    VCR.use_cassette('get_sims_with_params') do
+      service = described_class.new(access_token: 'VALID TOKEN', params: {page: 2, pageSize: 5})
+      response = service.sims
+      headers = service.headers
+      expect(response.size).to eq 5
+
+      expect(headers['x-current-page']).to eq '2'
+    end
+  end
+
   it 'invalid token' do
     VCR.use_cassette('get_sims_wrong_token') do
       response = described_class.new(access_token: 'INVALID TOKEN').sims
