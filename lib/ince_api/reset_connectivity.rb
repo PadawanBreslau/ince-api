@@ -27,7 +27,7 @@ module InceApi
     end
 
     def request
-      Net::HTTP::POST.new(url).tap do |request|
+      Net::HTTP::Post.new(url).tap do |request|
         request["Accept"] = 'application/json'
         request['Authorization'] = "Bearer #{@access_token}"
       end
