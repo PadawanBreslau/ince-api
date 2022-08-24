@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    ince-api (0.0.6)
+    ince-api (0.1.2)
       base64 (~> 0.1)
       net-http (~> 0.2)
-      openssl (~> 2.2)
+      openssl
       uri (~> 0.11)
 
 GEM
@@ -18,17 +18,10 @@ GEM
       rexml
     diff-lcs (1.4.4)
     hashdiff (1.0.1)
-    io-wait (0.1.0)
-    ipaddr (1.2.3)
     method_source (1.0.0)
-    net-http (0.2.0)
-      net-protocol
+    net-http (0.2.2)
       uri
-    net-protocol (0.1.2)
-      io-wait
-      timeout
-    openssl (2.2.1)
-      ipaddr
+    openssl (3.0.0)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -47,7 +40,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.3)
-    timeout (0.2.0)
     uri (0.11.0)
     vcr (6.0.0)
     webmock (3.14.0)
